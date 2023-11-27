@@ -14,7 +14,7 @@
         <label for="word">Censured word:</label><br>
         <input type="text" id="word" name="word"><br><br>
         
-        <input type="submit" value="Submit">
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>

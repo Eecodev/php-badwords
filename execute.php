@@ -1,7 +1,6 @@
 <?php
     $text = $_POST["paragraph"];
     $censured_word = $_POST["word"];
-
 ?>
 
 
@@ -13,6 +12,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    form
 </body>
 </html>
