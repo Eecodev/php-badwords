@@ -1,6 +1,9 @@
 <?php
-    $text = $_POST["paragraph"];
-    $censured_word = $_POST["word"];
+    $par = $_POST["paragraph"];
+    $bad_word = $_POST["word"];
+    $paragraphLength = strlen($par);
+    $censuredParagraph = str_replace($bad_word, '***', $par);
+    $censuredParagraphLength = strlen($censuredParagraph);
 ?>
 
 
@@ -12,6 +15,10 @@
     <title>Document</title>
 </head>
 <body>
-    form
+    <p>Paragraph: <?php echo $par; ?></p>
+    <p>Paragraph's Length: <?php echo $paragraphLength; ?></p>
+    <p>Cesured Word: <?php echo $bad_word; ?></p>
+    <p>Censured Paragraph: <?php echo $censuredParagraph; ?></p>
+    <p>Censured Paragraph's length: <?php echo $censuredParagraphLength; ?></p>
 </body>
 </html>

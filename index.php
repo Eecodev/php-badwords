@@ -11,7 +11,7 @@
         <label for="paragraph">Write Paragraph:</label><br>
         <textarea id="paragraph" name="paragraph" rows="4" cols="50"></textarea><br><br>
         
-        <label for="word">Censured word:</label><br>
+        <label for="word">Bad Word:</label><br>
         <input type="text" id="word" name="word"><br><br>
         
         <button type="submit">Submit</button>
